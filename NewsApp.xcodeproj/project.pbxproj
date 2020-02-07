@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1805278123ED479F00FE5F9E /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805278023ED479F00FE5F9E /* RoundedLabel.swift */; };
+		1805278F23ED511900FE5F9E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278323ED511900FE5F9E /* Roboto-Bold.ttf */; };
+		1805279023ED511900FE5F9E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278423ED511900FE5F9E /* Roboto-Black.ttf */; };
+		1805279123ED511900FE5F9E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278523ED511900FE5F9E /* Roboto-Light.ttf */; };
+		1805279223ED511900FE5F9E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278623ED511900FE5F9E /* Roboto-BoldItalic.ttf */; };
+		1805279323ED511900FE5F9E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278723ED511900FE5F9E /* Roboto-LightItalic.ttf */; };
+		1805279423ED511900FE5F9E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278823ED511900FE5F9E /* Roboto-Medium.ttf */; };
+		1805279523ED511900FE5F9E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278923ED511900FE5F9E /* Roboto-BlackItalic.ttf */; };
+		1805279623ED511900FE5F9E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278A23ED511900FE5F9E /* Roboto-Regular.ttf */; };
+		1805279723ED511900FE5F9E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278B23ED511900FE5F9E /* Roboto-Thin.ttf */; };
+		1805279823ED511900FE5F9E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278C23ED511900FE5F9E /* Roboto-MediumItalic.ttf */; };
+		1805279923ED511900FE5F9E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278D23ED511900FE5F9E /* Roboto-Italic.ttf */; };
+		1805279A23ED511900FE5F9E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1805278E23ED511900FE5F9E /* Roboto-ThinItalic.ttf */; };
+		18263BF723E0B7510011DF19 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18263BF623E0B7510011DF19 /* Article.swift */; };
 		18FC8CBD23D72B1400A76514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC8CBC23D72B1400A76514 /* AppDelegate.swift */; };
 		18FC8CBF23D72B1400A76514 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC8CBE23D72B1400A76514 /* SceneDelegate.swift */; };
 		18FC8CC123D72B1400A76514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC8CC023D72B1400A76514 /* ViewController.swift */; };
 		18FC8CC423D72B1400A76514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC8CC223D72B1400A76514 /* Main.storyboard */; };
 		18FC8CC623D72B1700A76514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC8CC523D72B1700A76514 /* Assets.xcassets */; };
 		18FC8CC923D72B1700A76514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC8CC723D72B1700A76514 /* LaunchScreen.storyboard */; };
+		18FC8CD423D736CA00A76514 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC8CD323D736C900A76514 /* TableViewCell.swift */; };
+		29B5E4DB96DF605576D5DC8D /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4A99FA47C47C35DA44B23A /* Pods_NewsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1805278023ED479F00FE5F9E /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		1805278323ED511900FE5F9E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../Desktop/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1805278423ED511900FE5F9E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../../Desktop/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		1805278523ED511900FE5F9E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../../Desktop/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		1805278623ED511900FE5F9E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../../../Desktop/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1805278723ED511900FE5F9E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../../../Desktop/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		1805278823ED511900FE5F9E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../Desktop/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1805278923ED511900FE5F9E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../../../Desktop/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1805278A23ED511900FE5F9E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Desktop/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1805278B23ED511900FE5F9E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../Desktop/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1805278C23ED511900FE5F9E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../../Desktop/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1805278D23ED511900FE5F9E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../../../Desktop/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		1805278E23ED511900FE5F9E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../Desktop/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		18263BF623E0B7510011DF19 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		18FC8CB923D72B1400A76514 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC8CBC23D72B1400A76514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FC8CBE23D72B1400A76514 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18FC8CC023D72B1400A76514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FC8CC023D72B1400A76514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		18FC8CC323D72B1400A76514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18FC8CC523D72B1700A76514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FC8CC823D72B1700A76514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FC8CCA23D72B1700A76514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC8CD323D736C900A76514 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8AE1A6F7F9FF0AE80ABCD1D4 /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4A99FA47C47C35DA44B23A /* Pods_NewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78846EB7A8F7AD9A3442CFF /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B5E4DB96DF605576D5DC8D /* Pods_NewsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1805277F23ED451700FE5F9E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1805278023ED479F00FE5F9E /* RoundedLabel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1805278223ED4F6C00FE5F9E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1805278423ED511900FE5F9E /* Roboto-Black.ttf */,
+				1805278923ED511900FE5F9E /* Roboto-BlackItalic.ttf */,
+				1805278323ED511900FE5F9E /* Roboto-Bold.ttf */,
+				1805278623ED511900FE5F9E /* Roboto-BoldItalic.ttf */,
+				1805278D23ED511900FE5F9E /* Roboto-Italic.ttf */,
+				1805278523ED511900FE5F9E /* Roboto-Light.ttf */,
+				1805278723ED511900FE5F9E /* Roboto-LightItalic.ttf */,
+				1805278823ED511900FE5F9E /* Roboto-Medium.ttf */,
+				1805278C23ED511900FE5F9E /* Roboto-MediumItalic.ttf */,
+				1805278A23ED511900FE5F9E /* Roboto-Regular.ttf */,
+				1805278B23ED511900FE5F9E /* Roboto-Thin.ttf */,
+				1805278E23ED511900FE5F9E /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18263BF323DF70BB0011DF19 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				18263BF623E0B7510011DF19 /* Article.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		18FC8CB023D72B1400A76514 = {
 			isa = PBXGroup;
 			children = (
 				18FC8CBB23D72B1400A76514 /* NewsApp */,
 				18FC8CBA23D72B1400A76514 /* Products */,
+				BE7AE8E600ABF2E7E216388D /* Pods */,
+				DC555DE0CEA8F66068D42294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,44 @@
 		18FC8CBB23D72B1400A76514 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				1805278223ED4F6C00FE5F9E /* Fonts */,
+				1805277F23ED451700FE5F9E /* Components */,
+				18263BF323DF70BB0011DF19 /* Logic */,
 				18FC8CBC23D72B1400A76514 /* AppDelegate.swift */,
 				18FC8CBE23D72B1400A76514 /* SceneDelegate.swift */,
-				18FC8CC023D72B1400A76514 /* ViewController.swift */,
+				18FC8CD023D7317500A76514 /* Presentation */,
 				18FC8CC223D72B1400A76514 /* Main.storyboard */,
 				18FC8CC523D72B1700A76514 /* Assets.xcassets */,
 				18FC8CC723D72B1700A76514 /* LaunchScreen.storyboard */,
 				18FC8CCA23D72B1700A76514 /* Info.plist */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		18FC8CD023D7317500A76514 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				18FC8CC023D72B1400A76514 /* ViewController.swift */,
+				18FC8CD323D736C900A76514 /* TableViewCell.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		BE7AE8E600ABF2E7E216388D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AE1A6F7F9FF0AE80ABCD1D4 /* Pods-NewsApp.debug.xcconfig */,
+				A78846EB7A8F7AD9A3442CFF /* Pods-NewsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC555DE0CEA8F66068D42294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A99FA47C47C35DA44B23A /* Pods_NewsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FC8CCD23D72B1700A76514 /* Build configuration list for PBXNativeTarget "NewsApp" */;
 			buildPhases = (
+				957B701618DC405647C25DC9 /* [CP] Check Pods Manifest.lock */,
 				18FC8CB523D72B1400A76514 /* Sources */,
 				18FC8CB623D72B1400A76514 /* Frameworks */,
 				18FC8CB723D72B1400A76514 /* Resources */,
+				7792239D176173710698868B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +228,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1805279A23ED511900FE5F9E /* Roboto-ThinItalic.ttf in Resources */,
 				18FC8CC923D72B1700A76514 /* LaunchScreen.storyboard in Resources */,
+				1805279623ED511900FE5F9E /* Roboto-Regular.ttf in Resources */,
+				1805279823ED511900FE5F9E /* Roboto-MediumItalic.ttf in Resources */,
 				18FC8CC623D72B1700A76514 /* Assets.xcassets in Resources */,
+				1805279323ED511900FE5F9E /* Roboto-LightItalic.ttf in Resources */,
+				1805279123ED511900FE5F9E /* Roboto-Light.ttf in Resources */,
+				1805279023ED511900FE5F9E /* Roboto-Black.ttf in Resources */,
+				1805278F23ED511900FE5F9E /* Roboto-Bold.ttf in Resources */,
+				1805279223ED511900FE5F9E /* Roboto-BoldItalic.ttf in Resources */,
+				1805279723ED511900FE5F9E /* Roboto-Thin.ttf in Resources */,
+				1805279523ED511900FE5F9E /* Roboto-BlackItalic.ttf in Resources */,
+				1805279923ED511900FE5F9E /* Roboto-Italic.ttf in Resources */,
 				18FC8CC423D72B1400A76514 /* Main.storyboard in Resources */,
+				1805279423ED511900FE5F9E /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7792239D176173710698868B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957B701618DC405647C25DC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18FC8CB523D72B1400A76514 /* Sources */ = {
@@ -139,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FC8CC123D72B1400A76514 /* ViewController.swift in Sources */,
+				1805278123ED479F00FE5F9E /* RoundedLabel.swift in Sources */,
+				18FC8CD423D736CA00A76514 /* TableViewCell.swift in Sources */,
 				18FC8CBD23D72B1400A76514 /* AppDelegate.swift in Sources */,
 				18FC8CBF23D72B1400A76514 /* SceneDelegate.swift in Sources */,
+				18263BF723E0B7510011DF19 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +442,11 @@
 		};
 		18FC8CCE23D72B1700A76514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE1A6F7F9FF0AE80ABCD1D4 /* Pods-NewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737JK838TD;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +461,11 @@
 		};
 		18FC8CCF23D72B1700A76514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78846EB7A8F7AD9A3442CFF /* Pods-NewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737JK838TD;
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
