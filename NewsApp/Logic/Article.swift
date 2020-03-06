@@ -6,8 +6,6 @@
 //  Copyright © 2020 Adam. All rights reserved.
 //
 
-import UIKit
-
 class Article {
     var title: String
     var source: String

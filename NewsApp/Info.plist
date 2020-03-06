@@ -4,12 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Roboto-Thin.ttf</string>
 		<string>Roboto-Light.ttf</string>
-		<string>Roboto-Medium.ttf</string>
 		<string>Roboto-Regular.ttf</string>
 		<string>Roboto-Bold.ttf</string>
-		<string>Roboto-Black.ttf</string>
 	</array>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
@@ -71,5 +68,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
 </dict>
 </plist>
